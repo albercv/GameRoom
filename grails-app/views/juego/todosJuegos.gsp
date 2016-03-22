@@ -9,17 +9,18 @@
 <html>
 <head>
     <title>Lista de Juegos</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body>
-            <table>
-                    <g:each in="${juegos}">
-                            <tr>
-                                <td>${it.nombre}</td>
-                                <td>${it.titulo}</td>
-                                <td>${it.precio}</td>
-                                <td>${it.contacto}</td>
-                            </tr>
-                    </g:each>
-            </table>
+        <div class=" JUMBOTRON">
+            <div class="row">
+                <div class="col-xs-12.col-md-4">
+                <table>
+
+                </table>
+                </div>
+            </div>
+        </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

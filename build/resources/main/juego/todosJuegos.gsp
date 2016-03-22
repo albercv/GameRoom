@@ -6,20 +6,26 @@
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
 <html>
 <head>
     <title>Lista de Juegos</title>
 </head>
 <body>
-        <g:each in="${juegos}">
-                <tr>
-                    <td>${it.nombre}</td>
-                    <td>${it.titulo}</td>
-                    <td>${it.precio}</td>
-                    <td>${it.contacto}</td>
-                </tr>
-
-        </g:each>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                <table>
+                    <g:each in="${juegos}" var="i">
+                            <tr>
+                                <td>${i.get(0).nombre}</td>
+                                <td>${i.get(0).titulo}</td>
+                                <td>${i.get(0).precio}</td>
+                                <td>${i.get(0).contacto}</td>
+                            </tr>
+                    </g:each>
+            </table>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
