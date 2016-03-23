@@ -12,6 +12,8 @@ class JuegoController extends RestfulController<Juego> {
 
     }
 
+
+
     def todosJuegos(){
         def juegos = juegoService.mostrarJuegos()
         [juegos: juegos]
