@@ -16,25 +16,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 </head>
 <body>
+<div class="jumbotron">
 <header class="navbar-default" role="banner">
-    <div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="input-group">
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Buscar <span class="caret"></span></button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Buscar</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div><!-- /btn-group -->
-                <input type="text" class="form-control" aria-label="...">
-            </div><!-- /input-group -->
-        </div><!-- /.col-lg-6 -->
-    </div><!-- /.row -->
-    </div>
+    <asset:image src="narnia2.jpg" height="250px" width="1200"/>
 </header>
+</div>
 <p>
         <div class="bg-warning">
                 <g:each in="${juegos}">

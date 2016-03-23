@@ -12,10 +12,9 @@ class JuegoController extends RestfulController<Juego> {
 
     }
 
-
-
     def todosJuegos(){
-        def juegos = juegoService.mostrarJuegos()
+        def juegos = juegoService.probandoFinder()
         [juegos: juegos]
     }
+
 }
